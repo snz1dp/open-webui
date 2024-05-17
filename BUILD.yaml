@@ -34,7 +34,7 @@ service:
   - ENV=prod
   - USE_CUDA_DOCKER=false
   - USE_CUDA_DOCKER_VER=cu121
-  - RAG_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+  - RAG_EMBEDDING_MODEL=shaw/dmeta-embedding-zh
   - USE_RERANKING_MODEL_DOCKER=${USE_RERANKING_MODEL}
 
   # 心跳检测
