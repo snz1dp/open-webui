@@ -39,7 +39,7 @@ service:
 
   # 心跳检测
   healthcheck:
-    url: /health
+    url: /
     interval: 10s
     timeout: 10s
     period: 60s
