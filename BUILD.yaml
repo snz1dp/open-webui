@@ -2,10 +2,14 @@
 # 名称
 name: open-webui
 
+# 版本
+version: 0.1.124
+
 # 镜像编译参数
 docker:
   # 镜像名称
   image: snz1dp/open-webui
+  tag: latest
   # 编译文件
   file: Dockerfile
   # 目标平台
@@ -28,11 +32,10 @@ service:
   envs:
   - TZ=Asia/Shanghai
   - ENV=prod
-  - USE_CUDA_DOCKER=false \
-  - USE_CUDA_DOCKER_VER=cu121 \
-  - RAG_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2 \
+  - USE_CUDA_DOCKER=false
+  - USE_CUDA_DOCKER_VER=cu121
+  - RAG_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
   - USE_RERANKING_MODEL_DOCKER=${USE_RERANKING_MODEL}
-
 
   # 心跳检测
   healthcheck:
