@@ -34,8 +34,9 @@ service:
   - ENV=prod
   - USE_CUDA_DOCKER=false
   - USE_CUDA_DOCKER_VER=cu121
+  - RAG_EMBEDDING_ENGINE=ollama
   - RAG_EMBEDDING_MODEL=shaw/dmeta-embedding-zh
-  - USE_RERANKING_MODEL_DOCKER=${USE_RERANKING_MODEL}
+  - OLLAMA_BASE_URL=http://ollama:11434
 
   # 心跳检测
   healthcheck:
