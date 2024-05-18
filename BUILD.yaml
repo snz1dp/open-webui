@@ -37,6 +37,7 @@ service:
   - RAG_EMBEDDING_ENGINE=ollama
   - RAG_EMBEDDING_MODEL=shaw/dmeta-embedding-zh
   - OLLAMA_BASE_URL=http://ollama:11434
+  - WEBUI_AUTH=false
 
   # 心跳检测
   healthcheck:

@@ -1,35 +1,35 @@
 {
 	"version": 0,
 	"ui": {
-		"default_locale": "zh-CN",
+		"default_locale": "en-US",
 		"prompt_suggestions": [
 			{
-				"title": ["帮我学习", "大学入学考试的词汇"],
-				"content": "帮我学习词汇：给我写一个填空句子，我会尝试选择正确的选项。"
+				"title": ["Help me study", "vocabulary for a college entrance exam"],
+				"content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option."
 			},
 			{
-				"title": ["给我一些创意", "如何处理孩子的艺术作品"],
-				"content": "我可以用孩子的艺术作品做什么有创意的事情？我不想扔掉它们，但又觉得太多了。"
+				"title": ["Give me ideas", "for what to do with my kids' art"],
+				"content": "What are 5 creative things I could do with my kids' art? I don't want to throw them away, but it's also so much clutter."
 			},
 			{
-				"title": ["告诉我一个有趣的事实", "关于罗马帝国"],
-				"content": "告诉我一个关于罗马帝国的随机有趣事实。"
+				"title": ["Tell me a fun fact", "about the Roman Empire"],
+				"content": "Tell me a random fun fact about the Roman Empire"
 			},
 			{
-				"title": ["展示一个网站的粘性导航栏", "的代码片段"],
-				"content": "展示一个网站的粘性导航栏的CSS和JavaScript代码片段。"
+				"title": ["Show me a code snippet", "of a website's sticky header"],
+				"content": "Show me a code snippet of a website's sticky header in CSS and JavaScript."
 			},
 			{
-				"title": ["如果我熟悉买卖股票，", "解释期权交易"],
-				"content": "如果我熟悉买卖股票，请用简单的语言解释期权交易。"
+				"title": ["Explain options trading", "if I'm familiar with buying and selling stocks"],
+				"content": "Explain options trading in simple terms if I'm familiar with buying and selling stocks."
 			},
 			{
-				"title": ["克服拖延症", "给我一些建议"],
-				"content": "你可以先问我最容易拖延的情况，然后给我一些建议来克服它吗？"
+				"title": ["Overcome procrastination", "give me tips"],
+				"content": "Could you start by asking me about instances when I procrastinate the most and then give me some suggestions to overcome it?"
 			},
 			{
-				"title": ["语法检查", "重写以提高可读性"],
-				"content": "检查以下句子的语法和清晰度：“[句子]”。在保持原意的同时，重写它以提高可读性。"
+				"title": ["Grammar check", "rewrite it for better readability "],
+				"content": "Check the following sentence for grammar and clarity: \"[sentence]\". Rewrite it for better readability while maintaining its original meaning."
 			}
 		]
 	}
