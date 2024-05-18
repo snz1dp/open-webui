@@ -9,7 +9,8 @@ version: 0.1.124
 docker:
   # 镜像名称
   image: snz1dp/open-webui
-  tag: latest
+  # 镜像标签
+  tag: 0.1.124
   # 编译文件
   file: Dockerfile
   # 目标平台
